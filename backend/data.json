@@ -1,0 +1,97 @@
+{
+    "recipes": [
+        {
+            "name": "iron-ingot-recipe",
+            "displayName": "Iron Ingot",
+            "timeTaken": 2,
+            "ingredients": [
+                {
+                    "name": "iron-ore",
+                    "displayName": "Iron Ore",
+                    "count": 1,
+                    "liquid": false
+                }
+            ],
+            "products": [
+                {
+                    "name": "iron-ingot",
+                    "displayName": "Iron Ingot",
+                    "count": 1,
+                    "liquid": false
+                }
+            ],
+            "machine": "smelter",
+            "alternate": false,
+            "FICSMAS": false,
+            "owned": true
+        },
+        {
+            "name": "iron-plate-recipe",
+            "displayName": "Iron Plate",
+            "timeTaken": 6,
+            "ingredients": [
+                {
+                    "name": "iron-ingot",
+                    "displayName": "Iron Ingot",
+                    "count": 3,
+                    "liquid": false
+                }
+            ],
+            "products": [
+                {
+                    "name": "iron-plate",
+                    "displayName": "Iron Plate",
+                    "count": 2,
+                    "liquid": false
+                }
+            ],
+            "machine": "constructor",
+            "alternate": false,
+            "FICSMAS": false,
+            "owned": true
+        },
+        {
+            "name": "iron-rod-recipe",
+            "displayName": "Iron Rod",
+            "timeTaken": 4,
+            "ingredients": [
+                {
+                    "name": "iron-ingot",
+                    "displayName": "Iron Ingot",
+                    "count": 1,
+                    "liquid": false
+                }
+            ],
+            "products": [
+                {
+                    "name": "iron-rod",
+                    "displayName": "Iron Rod",
+                    "count": 1,
+                    "liquid": false
+                }
+            ],
+            "machine": "constructor",
+            "alternate": false,
+            "FICSMAS": false,
+            "owned": true
+        }
+    ],
+    "items": [
+        {
+            "name": "iron-ore",
+            "displayName": "Iron Ore"
+        },
+        {
+            "name": "iron-ingot",
+            "displayName": "Iron Ingot"
+        },
+        {
+            "name": "iron-rod",
+            "displayName": "Iron Rod"
+        },
+        {
+            "name": "iron-plate",
+            "displayName": "Iron Plate"
+        }
+    ]
+}
